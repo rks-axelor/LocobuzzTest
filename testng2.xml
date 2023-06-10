@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Locobuzz 3.0">
+
+   
+ 	
+	
+ <!--   <test name="Excel Report Mention Campaign Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionCampaignReportWorkflowFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Mention Ticket Workflow Report V3 Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionTicketWorkflowReportV3WorkflowFunctionality" />
+		</classes>
+  </test> 
+   <test name="Excel Report Agent Achievement Detail Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportAgentAchievementDetailReportWorkflowFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Ticket SendDm Link and Group Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterTicketSendDMLinkAndGroupWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Insta Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigurationInstaFunctionality" />
+		</classes>
+</test> -->
+
+<test name="Locobuzz AWA  Download PPT For Brand Activity  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWABrandActivityPPTDownloadFunctionality" />
+		</classes>
+	</test> 
+
+</suite> <!-- Suite -->
+

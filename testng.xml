@@ -1,0 +1,2730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Locobuzz 3.0">
+
+  	<test name="Login Test Supervisor">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LoginFunctionality" />
+		</classes>
+	</test>
+
+	<test name="Login Test Customer">
+		<parameter name="user" value="Customer" />
+		<classes>
+			<class name="com.test.java.classes.LoginFunctionality" />
+		</classes>
+	</test>
+
+	<test name="Login Test Agent">
+		<parameter name="user" value="Agent" />
+		<classes>
+			<class name="com.test.java.classes.LoginFunctionality" />
+		</classes>
+	</test>
+
+	<test name="Login Test TeamLeader">
+		<parameter name="user" value="TeamLeader" />
+		<classes>
+			<class name="com.test.java.classes.LoginFunctionality" />
+		</classes>
+	</test>
+
+	<test name="Login Test Brand">
+		<parameter name="user" value="Brand" />
+		<classes>
+			<class name="com.test.java.classes.LoginFunctionality" />
+		</classes>
+	</test> 
+	
+
+	<test name="Twitter Ticket Generation">
+		<classes>
+			<class name="com.test.java.classes.TwitterTicketGeneration" />
+		</classes>
+	</test> 
+
+	<test name="Facebook Ticket Generation">
+		<classes>
+			<class name="com.test.java.classes.FacebookTicketGeneration" />
+		</classes>
+	</test>
+
+	<test name="Instagram Ticket Generation">
+		<classes>
+			<class name="com.test.java.classes.InstagramTicketGeneration" />
+		</classes>
+	</test> 
+	
+	
+	 <test name="AllMentions Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.AllMentionsTwitterTicketsFunctionality" />
+		</classes>
+	</test> 
+	
+ 	<test name="Ticket Workflow Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterTicketWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Open Details Workflow Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsTwitterTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Twitter Ticket Brand Workflow Functionality ">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterTicketBrandWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Open Details Brand Workflow Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsTwitterTicketBrandWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	
+	 <test name="AllMentions Functionality Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.AllMentionsFacebookTicketFunctionality" />
+		</classes> 
+	</test>
+	
+	 <test name="Ticket Functionality Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookTicketWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Open Details Workflow Functionality Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsFacebookTicketFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="AllMentions Functionality Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.AllMentionsInstagramTicketFunctionality" />
+		</classes> 
+	</test> 
+	
+	 <test name="Ticket Functionality Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramTicketWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Open Details Workflow Functionality Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsInstagramTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="AllMentions Functionality Youtube">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="Youtube" />
+		<classes>
+			<class name="com.test.java.classes.AllMentionYoutubeTicketFunctionality" />
+		</classes> 
+	</test>
+	
+	 <test name="Ticket Functionality Youtube">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="Youtube" />
+		<classes>
+			<class name="com.test.java.classes.YoutubeTicketWorkflowFunctionality" />
+		</classes>
+	</test> 
+
+	<test name="Open Details Workflow Functionality Youtube">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="Youtube" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsYoutubeTicketFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="AllMentions Functionality LinkedIn">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="linkedin" />
+		<classes>
+			<class name="com.test.java.classes.AllMentionsLinkedInTicketFunctionality" />
+		</classes> 
+	</test>
+	
+	<test name="Ticket Functionality LinkedIn">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="linkedin" />
+		<classes>
+			<class name="com.test.java.classes.LinkedinTicketWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Open Details Workflow Functionality LinkedIn">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="linkedin" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsLinkedinTicketFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name="AllMentions Functionality GMB Reviews">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="GMB" />
+		<classes>
+			<class name="com.test.java.classes.AllMentionsGMBReviewsTicketFunctionality" />
+		</classes> 
+	</test>
+	
+	 <test name="Ticket Functionality GMB Reviews">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="GMB" />
+		<classes>
+			<class name="com.test.java.classes.GMBReviewsTicketWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Open Details Workflow Functionality GMB Reviews">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="GMB" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsGMBReviewTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="AllMentions Functionality Email">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="email" />
+		<classes>
+			<class name="com.test.java.classes.AllMentionEmailTicketFunctionality" />
+		</classes> 
+	</test> 
+	
+	 <test name="Ticket Functionality Email">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="email" />
+		<classes>
+			<class name="com.test.java.classes.EmailTicketWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Open Details Workflow Functionality Email">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="email" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsEmailTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="AllMentions Functionality E-Commerce">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="e-commerce" />
+		<classes>
+			<class name="com.test.java.classes.AllMentionECommerceTicketFunctionality" />
+		</classes> 
+	</test> 
+	
+	 <test name="Ticket Functionality E-Commerce">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="e-commerce" />
+		<classes>
+			<class name="com.test.java.classes.ECommerceTicketWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="NewMentions Ticket Functionality Facebook Reply Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookReplyFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Facebook Acknowledge Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookAcknowledgeFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="NewMentions Ticket Functionality Facebook Create Ticket Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookCreateTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="AllMentions Functionality Google play store">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="google play store" />
+		<classes>
+			<class name="com.test.java.classes.AllMentionGooglePlayStoreTicketFunctionality" />
+		</classes> 
+	</test> 
+	
+	<test name="Ticket Functionality Google play store">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="google play store" />
+		<classes>
+			<class name="com.test.java.classes.GooglePlayStoreTicketWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Open Details Workflow Functionality Google play store">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="google play store" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsGooglePlayStoreTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="NewMentions Ticket Functionality Twitter Reply Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterReplyFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="NewMentions Ticket Functionality Twitter Acknowledge Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterAcknowledgeFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="NewMentions Ticket Functionality Twitter Create Ticket Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterCreateTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="NewMentions Ticket Functionality Instagram Reply Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramReplyFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="NewMentions Ticket Functionality Instagram Acknowledge Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramAcknowledgeFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="NewMentions Ticket Functionality Instagram Create Ticket Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramCreateTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="NewMentions Ticket Functionality Instagram Reply Onhold">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramOnholdReplyFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="NewMentions Ticket Functionality Instagram Acknowledge Onhold">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramOnholdAcknowledgeFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="NewMentions Ticket Functionality Instagram Create Ticket Onhold">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramOnholdCreateTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="NewMentions Ticket Functionality Twitter Reply Onhold">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterOnholdReplyFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Twitter Acknowledge Onhold">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterOnholdAcknowledgeFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="NewMentions Ticket Functionality Twitter Create Ticket Onhold">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterOnholdCreateTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="NewMentions Ticket Functionality Facebook Reply Onhold">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookOnholdReplyFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="NewMentions Ticket Functionality Facebook Acknowledge Onhold">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookOnholdAcknowledgeFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="NewMentions Ticket Functionality Facebook Create Ticket Onhold">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookOnholdCreateTicketFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="NewMentions Ticket Functionality Facebook Brand Reply Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookBrandReplyFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Facebook Brand Acknowledge Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookBrandAcknowledgeFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Facebook Brand Create Ticket Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookBrandCreateTicketFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Twitter Brand Reply Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterBrandReplyFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="NewMentions Ticket Functionality Twitter Brand Acknowledge Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterBrandAcknowledgeFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="NewMentions Ticket Functionality Twitter Brand Create Ticket Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterBrandCreateTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="NewMentions Ticket Functionality Instagram Brand Reply Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramBrandReplyFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Instagram Brand Acknowledge Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramBrandAcknowledgeFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Instagram Brand Create Ticket Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramBrandCreateTicketFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Instagram Escalated Reply Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramEscalateReplyFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Instagram Escalated Acknowledge Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramEscalateAcknowledgeFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Instagram Escalated Create Ticket Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionInstagramEscalateCreateTicketFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Facebook Escalated Reply Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookEscalateReplyFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Facebook Escalated Acknowledge Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookEscalateAcknowledgeFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Facebook Escalated Create Ticket Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionFacebookEscalateCreateTicketFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="NewMentions Ticket Functionality Twitter Escalate Reply Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterEscalateReplyFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="NewMentions Ticket Functionality Twitter Escalate Acknowledge Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterEscalateAcknowledgeFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="NewMentions Ticket Functionality Twitter Escalate Create Ticket Type">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.NewMentionTwitterEscalateCreateTicketFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz Supervisor Tickets Tab UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSupervisorTicketsTabUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Supervisor All Mentions Tab UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSupervisorAllMentionsTabUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	
+	
+	<test name="Locobuzz Supervisor Common UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSupervisorCommonUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Agent Tickets Tab UI Components">
+		<parameter name="user" value="Agent" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAgentTicketTabUIComponentsFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Agent All Mentions Tab UI Components">
+		<parameter name="user" value="Agent" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAgentAllMentionsUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz Agent Common UI Components">
+		<parameter name="user" value="Agent" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAgentCommonUIComponentsFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="AllMentions Brand Enabled  Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.AllMentionTwitterBrandEnabledFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled CSD Functionality Aprroval Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterBrandEnabledCSDApprovalFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled CSD Functionality Reject Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterBrandEnabledCSDRejectFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Brand Enabled CSD Functionality Escalate Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterBrandEnabledCSDEscalateFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled CSD Functionality Approval Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookBrandEnabledCSDApprovalFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled CSD Functionality Reject Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookBrandEnabledCSDRejectFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled CSD Functionality Escalate Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookBrandEnabledCSDEscalateFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled CSD Functionality Approval Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramBrandEnabledCSDApprovalFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled CSD Functionality Reject Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramBrandEnabledCSDRejectFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled CSD Functionality Escalate Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramBrandEnabledCSDEscalateFunctionality" />
+		</classes>
+	</test> 
+	
+	  <test name="Brand Enabled CSD Functionality Escalate Reject Case Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramBrandEnabledCSDEscalateRejectCaseFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled CSD Functionality Escalate Reject Case Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookBrandEnabledCSDEscalateRejectCaseFunctionality" />
+		</classes>
+	</test> 
+	
+	  <test name="Brand Enabled CSD Functionality Escalate Reject Case Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterBrandEnabledCSDEscalateRejectCaseFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Brand Enabled Brand Functionality Reply and Close Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterBrandEnabledBrandRCFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled Brand Functionality Reply and Onhold Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterBrandEnabledBrandOnHoldFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled Brand Functionality Reply and Reject Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterBrandEnabledBrandRejectFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled Brand Functionality Reply and Close Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookBrandEnabledBrandRCFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled Brand Functionality Reply and Onhold Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookBrandEnabledBrandOnHoldFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Brand Enabled Brand Functionality Reply and Reject Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookBrandEnabledBrandRejectFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Disabled Brand Functionality Reply and Close Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterBrandDisabledBrandRCFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Disabled Brand Functionality Reply and Onhold Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterBrandDisabledBrandOnHoldFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled Brand Functionality Reply and Close Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramBrandEnabledBrandRCFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled Brand Functionality Reply and Onhold Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramBrandEnabledBrandOnHoldFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Enabled Brand Functionality Reply and Reject Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramBrandEnabledBrandRejectFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Brand Disabled Brand Functionality Reply and Close Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramBrandDisabledBrandRCFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Disabled Brand Functionality Reply and Onhold Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramBrandDisabledBrandOnHoldFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Brand Disabled Brand Functionality Reply and Close Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookBrandDisabledBrandRCFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Brand Disabled Brand Functionality Reply and Onhold Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookBrandDisabledBrandOnHoldFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz Account Section Profile Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAccountSectionProfileFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Chatbot UI Components">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.ChatbotUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Email Settings UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzEmailSettingsUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Email Settings Work Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzEmailSettingsWorkProcessFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Open Details Brand Enabled Brand Functionality Reply and Close Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsTwitterBrandEnabledBrandRCFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Open Details Brand Enabled Brand Functionality Reply and Onhold Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsTwitterBrandEnabledBrandOnHoldFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Open Details Brand Enabled Brand Functionality Reply and Reject Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsTwitterBrandEnabledBrandRejectFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Canned Response UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzCannedResponseUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Canned Response Work Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzCannedResponseWorkProcessFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Canned Response Ticket Flow Functionality Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookCannedResponseTicketFlowFunctionality" />
+		</classes> 
+	</test>
+	
+	 <test name="Open Details Canned Response Ticket Flow Functionality Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsFacebookCannedResponseTicketFlowFunctionality" />
+		</classes> 
+	</test>
+	
+	 <test name="Canned Response Ticket Flow Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterCannedResponseTicketWorkFlowFunctionality" />
+		</classes> 
+	</test>
+	
+	 <test name="Open Details Canned Response Ticket Flow Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsTwitterCannedResponseTicketFlowFunctionality" />
+		</classes> 
+	</test>
+	
+	<test name="Canned Response Ticket Flow Functionality Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramCannedResponseTicketFlowFunctionality" />
+		</classes> 
+	</test>
+	
+	 <test name="Open Details Canned Response Ticket Flow Functionality Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.OpenDetailsInstagramCannedResponseTicketFlowFunctionality" />
+		</classes> 
+	</test>
+	
+	<test name="Ticket Forwarding Email By Supervisor">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TicketForwardingEmailsBySupervisorFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Ticket Section Email Send By CSD">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TicketSectionSendEmailsByCSDFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Chatbot Customer Workflow for Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookChatbotCustomerWorkFlowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Chatbot Canned Response Workflow for Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookChatbotCannedResponseWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Chatbot CSD Workflow for Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookChatbotCSDWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Chatbot Brand Workflow for Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookChatbotBrandWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Chatbot Customer Workflow for Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramChatbotCustomerWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Chatbot Canned Response Workflow for Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramChatbotCannedResponseWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Chatbot CSD Workflow for Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramChatbotCSDWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Chatbot Brand Workflow for Instagram">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.InstagramChatbotBrandWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz Language Filter UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzLanguageFilterUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz Language Filter Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzLanguageFilterWorkFlowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Messaging Window Settings UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzMessagingWindowSettingsUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Chatbot CSD  Response Workflow for Whatsapp">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="Chatbot" />
+		<classes>
+			<class name="com.test.java.classes.WhatsappChatbotCSDWorkflowfunctionality" />
+		</classes>
+	</test> 
+
+ <test name="Chatbot Brand Workflow for Whatsapp">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="Chatbot" />
+		<classes>
+			<class name="com.test.java.classes.WhatsappChatbotBrandWorkflowfunctionality" />
+		</classes>
+	</test> 
+ 	 
+<test name="Chatbot Canned response Workflow for Whatsapp">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="Chatbot" />
+		<classes>
+			<class name="com.test.java.classes.WhatsappChatbotCannedResponsefunctionality" />
+		</classes>
+	</test> 
+ 
+ <test name="Chatbot Awaiting Customer Workflow for Whatsapp">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="Chatbot" />
+		<classes>
+			<class name="com.test.java.classes.WhatsappChatbotAwaitingCustomerfunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz Messaging Window Settings Layout2 Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzMessagingWindowSettingsLayout2WorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz Messaging Window Settings Layout1 Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzMessagingWindowSettingsLayout1WorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Priority Configuration UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzPriorityConfigurationUIComponentsFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Priority Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="priority" value="Urgent" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzPriorityConfigurationWorkflowFunctionality" />
+		</classes>
+	</test>
+	 
+	 <test name="Locobuzz Team Management UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzTeamManagementUIComponentsFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Team Management Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzTeamManagementWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+ 	 <test name="Agent Signature UI and Workflow Functionality">
+		<parameter name="user" value="Supervisor" />
+		
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAlertSignaturefunctionality" />
+		</classes>
+	</test> 	
+ 
+  <test name="Agent Signature  Reply And Close Ticket Flow Functionality Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.AgentsignatureFacebookReplyclosefunctionality" />
+		</classes> 
+	</test>
+
+ <test name="Agent Signature  Reply And hold Ticket Flow Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.AgentsignatureOnholdTwitterFunctionality" />
+		</classes> 
+	</test>
+	
+	<test name="Agent Signature CSD workflow for Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.AgentsignatureEscalateCSDFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Agent Signature assign agent Workflow">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.AgentsignatureAssignAgentFunctionality" />
+		</classes>
+	</test> 
+	
+     <test name="Agent Signature assign agent awaiting and close Workflow">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.AssignAgentSignatureAwaitingcloseworkprocess" />
+		</classes>
+	</test>
+
+    <test name="Agent Signature CSD workflow">
+		<parameter name="user" value="Supervisor" />
+		
+		<classes>
+			<class name="com.test.java.classes.LocobuzzPublishApproverUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	  <test name="Agent Signature CSD workflow">
+		<parameter name="user" value="Supervisor" />
+		
+		<classes>
+			<class name="com.test.java.classes.LocobuzzPublishApproverSetingWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz Engagement Formula UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzEngagementFormulaUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz Engagement Formula Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzEngagementFormulaWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz Notification UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzNotificationUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Notification Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzNotificationWorkflowFunctionality" />
+		</classes>
+	</test>
+	<test name="Publish Approver UIVerification">
+		<parameter name="user" value="Supervisor" />
+		
+		<classes>
+			<class name="com.test.java.classes.LocobuzzPublishApproverUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	  <test name="Publish Approver WorkFlow">
+		<parameter name="user" value="Supervisor" />
+		
+		<classes>
+			<class name="com.test.java.classes.LocobuzzPublishApproverSetingWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Logical Grouping UI Verification">
+		<parameter name="user" value="Supervisor" />
+		
+		<classes>
+			<class name="com.test.java.classes.LocobuzzLogicalGroupingUIComponentFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Logical Grouping WorkFlowProcess">
+		<parameter name="user" value="Supervisor" />
+		
+		<classes>
+			<class name="com.test.java.classes.LocobuzzLogicalGroupingWorkFlowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Competitors UI Verification">
+		<parameter name="user" value="Supervisor" />
+		
+		<classes>
+			<class name="com.test.java.classes.LocobuzzCompetitorsUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Competitors WorkFlow Process">
+		<parameter name="user" value="Supervisor" />
+		
+		<classes>
+			<class name="com.test.java.classes.LocobuzzCompetitorsWorkflowFunctionality" />
+		</classes>
+	</test>  
+	
+	 <test name="Locobuzz Queue Configuration UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzQueueConfigurationUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Queue Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzQueueConfigurationWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Auto Closure Settings UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAutoClosureSettingsUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Auto Closure Settings Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAutoClosureSettingsWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Agent queue management UI Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAgentQueueManagementUIFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Agent queue management Workflowcsd Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAgentQueueManagementcsdworkflow" />
+		</classes>
+	</test>  
+	
+	<test name="Agent queue management Agent Workflow Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAgentQueueManagementAgentFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name="Agent queue management TL Workflow Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAgentQueueManagementTLFunctionality" />
+		</classes>
+	</test>  
+	
+	 <test name="Automated Canned Response UI Verification Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoAutoCannedUIVerificationFunctionality" />
+		</classes>
+	</test>  
+	
+	 <test name="Automated Canned Response reply and close Workflow">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAutomatedCannedResponseTwitterfunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Automated Canned Response reply and hold insta Workflow">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="instagram" />
+		<classes>
+			<class name="com.test.java.classes.LocoAutoCannedResponseInstaholdFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Automated Canned Response reply and Escalate facebook Workflow">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.LocoAutoCannedResponseFacebookCSDFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Automated Canned Response Awaiting twitter Workflow">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.LocoAutoCannedResponseAwaitingtwitterFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Keyword Configuration UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigurationUIComponentsFunctionality" />
+		</classes>
+	</test>  
+	
+	 <test name="Locobuzz Keyword Configuration Twitter Basic Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigRealTimeTwitterWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Keyword Configuration Twitter Advance Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigRealTimeTwitterAdvanceWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Keyword Configuration Facebook Basic Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigRealTimeFacebookWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Keyword Configuration Instagram Basic Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigRealTimeInstagramWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Keyword Configuration TeamBHP Basic Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigRealTimeTeamBHPWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Keyword Configuration Youtube Basic Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigRealTimeYoutubeWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Keyword Configuration Youtube Advance Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigRealTimeYoutubeAdvanceWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Keyword Configuration NewsBlogs Basic Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigRealTimeNewBlogsWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Keyword Configuration NewsBlogs Advance Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigRealTimeNewsBlogsAdvanceWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Keyword Configuration Complaint Website Basic Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigRealTimeComplaintWebsiteWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Keyword Configuration Complaint Website Advance Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzKeywordConfigRealTimeComplaintWebsiteAdvanceWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Team Management Agent Twitter Workflow Functionality ">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TeamManagementTwitterAgentWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Manage User UI Components">
+		<parameter name="user" value="Admin" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzManageUserUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Manage User Workflow for Supervisor Functionality">
+		<parameter name="user" value="Admin" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzManageUserWorkflowForSupervisorFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Manage User Workflow for TeamLeader Functionality">
+		<parameter name="user" value="Admin" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzManageUserWorkflowForTeamLeaderFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name=" Demo Automated Canned Response Awaiting twitter Workflow">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.LocoAutoCannedDemoFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name=" Demo Agent Signature reply and hold twitter Workflow">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.LocoAgentSignatureFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Actionable/Non Actionable UI Verification Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzActionablenonactionableUIVerFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name=" Account Section Actionable/Non Actionable Workflow Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoActNActWorkflowFunctionality" />
+		</classes>
+	</test>   
+	
+	<test name=" Ticket Section Actionable/Non Actionable Workflow Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoActNactTicketSectionWorkflowFunctioinality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Viral Alert UI Verification Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzViralAlertUIFunctionality" />
+		</classes>
+	</test>  
+	 
+	  <test name="Locobuzz Viral Alert  Account WorkFlow Functionality Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzViralAlertAccountFunctionality" />
+		</classes>
+	</test>   
+	
+	<test name="Locobuzz Manage Brand UI Components">
+		<parameter name="user" value="Admin" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzManageBrandUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Email Settings Twitter Email Work Process">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.EmailSettingsTwitterEmailWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Manage Brand Workflow Functionality">
+		<parameter name="user" value="Admin" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzManageBrandWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name=" Locobuzz Alert UI Verification Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAlertUIVerificationFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name=" Account Section Alert Workflow Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoAlertAccountSectWorkFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Token Expiry Alert UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzTokenExpiryAlertUIComponentsFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name="Locobuzz Token Expiry Alert Workflow Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzTokenExpiryAlertWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Advance Ticket Settings UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAdvanceTicketSettingsUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Advance Ticket Settings Workflow Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAdvanceTicketSettingWorkflowFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name="Locobuzz Escalation Email UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzEscalationEmailsUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz Account UGC Settings UI Verification">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzUGCSettingsAccountUIFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Account UGC Settings Workflow Process ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoUGCSettingsAccWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz NPS/Feedack UI Verification">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzNPSFeedbackUIFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz NPS/Feedack Account Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoNPSFeedbackAccountFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Escalation Email Workflow Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzEscalationEmailWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Data Consumption Alert UI Components">
+		<parameter name="user" value="Admin" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzDataConsumptionAlertUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Data Consumption Alert Workflow Functionality">
+		<parameter name="user" value="Admin" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzDataConsumptionAlertWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Manage Agent Skills UI Components  Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzManageAgentSkillsUIComponentFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Personal Details Settings UI Verification">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoPersonalDetailsUIFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Personal Details Settings Account Section Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoPersonalDetailsSetAccountFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Personal Details Settings Ticket Section Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoPersonalDetailsSetTicketFunctionality" />
+		</classes>
+  </test>
+  
+  <test name="Locobuzz Manage Agent Skills Workflow Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzManageAgentSkillWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Maker Checker UI Components  Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzMakerCheckerUIComponentsFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Maker Checker Workflow  Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzMakerCheckerWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Brand Preference UI Verification Process">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobrandpreferenceUIFunctionality" />
+		</classes>
+  </test>
+  
+   <test name="Locobuzz Brand Preference Account Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoBrandPreferenceAccountFunctionality" />
+		</classes>
+  </test>
+ 
+  <test name="Locobuzz Brand Preference Ticket Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoBrandPreferenceTicketFunctionality" />
+		</classes>
+  </test>
+  
+   <test name="Create Manual Ticket UI Verification">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoCreateManualTicketUIFunctionality" />
+		</classes>
+   </test> 
+
+   <test name="Create Manual Ticket Account Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoCreateManualTicketAccountFunctionality" />
+		</classes>
+   </test>
+   
+    <test name="Locobuzz Data Consumption Dashboard UI Components">
+		<parameter name="user" value="Admin" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzDataConsumptionDashboardUIComponentsFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Data Consumption Dashboard Workflow">
+		<parameter name="user" value="Admin" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzDataConsumptionDashboardWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Social Scheduling  UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingUIComponentsFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Social Scheduling  Facebook draft published delete Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingFacebookWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Social Scheduling  Facebook Publish later Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingFacebookPublishLaterWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Social Scheduling  Facebook Failed and Partially Published Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingFacebookFailedCaseWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Social Scheduling  Facebook Approval Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingFacebookApprovalWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Social Scheduling  Instagram draft,published,delete Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingInstagramDraftWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Social Scheduling  Instagram Publish later Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingInstagramPublishedLaterWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Social Scheduling  Instagram Failed and Partially Published Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingInstagramFailedCaseWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Social Scheduling  Instagram Reject Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingInstagramRejectWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Create Manual Ticket Section Workflow Process(Supervisor and Agent)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoCreateManualTicketSectionFunctionality" />
+		</classes>
+	</test>
+   
+   <test name="SLA Breach Account Verification">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSLABreachAccountFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Social Scheduling Twitter Workflow(Draft nad Publish)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSocialSchedulingTwitter1Functionality" />
+		</classes>
+	</test>
+	
+	<test name="Social Scheduling Twitter Workflow(Draft nad Schedule)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSocialSchedulingTwitterScheduledFuctionality" />
+		</classes>
+	</test>
+	
+	<test name="Social Scheduling Twitter Workflow(Fail and Partially Failure)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSchedulingFailedTwitterFunctionality" />
+		</classes>
+	</test>
+	
+<test name="Social Scheduling Twitter Workflow(Awaiting)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSocSchedulingAwaitingTWFunctionality" />
+		</classes>
+</test>
+
+<test name="Social Scheduling Youtube Workflow( Draft and Publish Now)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSocilaSchedulingYT1Functionality" />
+		</classes>
+</test>
+
+<test name="Social Scheduling Youtube Workflow( Draft and Publish Later)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSocilaSchedulingYT2Functionality" />
+		</classes>
+</test>
+
+<test name="Social Scheduling Youtube Workflow(Awaiting Workflow)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSocilaSchedulingYT3Functionality" />
+		</classes>
+</test>
+
+<test name="Social Scheduling Youtube Workflow(Failure and partial Failure Workflow)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSocilaSchedulingYT4Functionality" />
+		</classes>
+</test>
+
+ <test name="Ticket Functionality Facebook(withount CRM)">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookTicketWorkflowFunctionality" />
+		</classes>
+</test>
+
+<test name="Social Scheduling LinkedIN Workflow( Draft and Publish Now)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSocialSchedulingLinkedIN1Functionality" />
+		</classes>
+</test>
+
+<test name="Social Scheduling LinkedIN Workflow( Draft and Publish Later)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSocialSchedulingLinkedIN2Functionality" />
+		</classes>
+</test>
+
+<test name="Social Scheduling LinkedIN Workflow(Awaiting Workflow)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSocialSchedulingLinkedIN3Functionality" />
+		</classes>
+</test> 
+
+<test name="Locobuzz Social Scheduling  GMB draft,published,delete Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingGMBDraftWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Social Scheduling  GMB Publish later Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingGMBPublishedLaterWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Social Scheduling  GMB Approval Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingGMBApprovalWorkflowFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Social Scheduling  GMB Failed and Partially Published Workflow ">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzSocialSchedulingGMBFailedCaseWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Publish Personalization UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzPublishPersonalizationUIComponentsFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name="Locobuzz Publish Personalization Workflow Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzPublishPersonalizationWorkflowFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name="Old Ticket Workflow Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterOldTicketWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Old Ticket Workflow Functionality Facebook">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="facebook" />
+		<classes>
+			<class name="com.test.java.classes.FacebookOldTicketWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Excel Report Ticket Custom Template Workflow Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportTicketCustomTemplateFunctionality" />
+		</classes>
+  </test>
+  
+  <test name="Excel Report Ticket Custom Template Scheduled Workflow Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportTicketCustomTemplateScheduleFunctionality" />
+		</classes>
+  </test>
+  
+  <test name="Excel Report UI Components Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportUIComponentsFunctionality" />
+		</classes>
+  </test>
+  
+  <test name="Excel Report Edit Report Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportEditReportWorkflowFunctionality" />
+		</classes>
+  </test>
+  
+  <test name="Excel Report Edit Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportEditTemplateFunctionality" />
+		</classes>
+  </test>
+  
+   <test name="Excel Report Ticket TAT Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportTicketTATFunctionality" />
+		</classes>
+  </test>
+  
+  <test name="Excel Report Ticket Summary Report Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportTicketSummaryReportFunctionality" />
+		</classes>
+  </test> 
+
+<test name="Social Scheduling LinkedIN Workflow(Awaiting Brand Reject Workflow)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSocialSchedulingLinkedIN4Functionality" />
+		</classes>
+</test> 
+
+
+<test name="Publish WaterMarks UI Verification">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoPublishWatermarksUIFunctionality" />
+		</classes>
+</test>  
+
+<test name="Publish WaterMarks Account Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoPublishWaterMarksAccountFunctionality" />
+		</classes>
+</test>  
+
+<test name="Holiday Calender UI Verification">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoHolidayCalenderUIFunctionality" />
+		</classes>
+</test>  
+
+<test name="Channel Configuration UI Verification">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigurationUIFunctionality" />
+		</classes>
+</test>  
+
+<test name="Twitter Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigurationTwitterFunctionality" />
+		</classes>
+</test>  
+
+<test name="Facebook Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfgFBFunctionality" />
+		</classes>
+</test> 
+
+<test name="Insta Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigurationInstaFunctionality" />
+		</classes>
+</test>  
+
+<test name="Youtube/LinkedIN Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfgLinkedINYoutubeFunctionality" />
+		</classes>
+</test>  
+
+  <test name="Excel Report Ticket Summary New Report Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportTicketSummaryNewReportFunctionality" />
+		</classes>
+  </test> 
+  
+   <test name="Excel Report Email Forward Summary Ticket Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportEmailForwardSummaryTicketFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Interaction Details Report Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportInteractionDetailsReportFunctionality" />
+		</classes>
+  </test> 
+  
+   <test name="Excel Report Mention Create Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionCreateTemplateFunctionality" />
+		</classes>
+  </test>  	
+  
+   <test name="Excel Report Mention Mentions Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionMentionsTemplateFunctionality" />
+		</classes>
+  </test> 
+  
+   <test name="Excel Report Mention Historic Data Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionHistoricDataFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Mention Ticket Workflow Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionTicketWorkflowReportFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Mention Hide Deleted Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionHideDeletedReportFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Mention Email Forward Summary Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionEmailForwardSummaryFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Mention Ticket Workflow Report V2 Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionTicketWorkflowReportV2Functionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Mention Public Post FLR Competition Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionPublicPostFLRCompetitionFunctionality" />
+		</classes>
+  </test> 
+  
+<test name="Google PlayStore Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigurationGPSFunctionality" />
+		</classes>
+</test> 	  
+
+<test name="Google Alert Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigGoogleAlertFunctionality" />
+		</classes>
+</test>  
+<test name="TripAdvisor Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfgLinkedINYoutubeFunctionality" />
+		</classes>
+</test>  
+<test name="Glassdoor Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigGlassdoorFunctionality" />
+		</classes>
+</test>  
+<test name="Email Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigEmailFunctionality" />
+		</classes>
+</test>  
+<test name="E-Commerce Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigECommerceFunctionality" />
+		</classes>
+</test>  
+
+<test name="Excel Report Agent Details Productivity Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportAgentDetailsProductivityReportFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Agent Details Performance Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportAgentDetailsPerformanceReportFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report CRM Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportCRMReportFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Post Performance Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportPostPerformanceReportFunctionality" />
+		</classes>
+  </test>  
+  
+  <test name="Excel Report Post Scheduling Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportPostSchedulingReportFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report CSD Pending Ticket Analysis Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportCSDPendingTicketAnalysisFunctionality" />
+		</classes>
+  </test>
+  
+  <test name="Excel Report LoginDetails User Login Summary Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportLoginDetailsUserLoginReportFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report UGC Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportUGCReportFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Upper Category Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportUpperCategoryReportFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report GMB Location Data Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportGMBLocationDataReportFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Locobuzz Category Mapping UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzCategoryMappingUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Category Mapping Workflow Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzCategoryMappingWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Category Mapping Ticket Workflow Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzCategoryMappingTicketWorkflowFunctionality" />
+		</classes>
+	</test> 
+  	<test name="SLA Braech UI Verification">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSLABreachAccountFunctionality" />
+		</classes>
+</test>
+<test name="SLA Braech Account Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSLABreachAccount2Functionality" />
+		</classes>
+</test> 
+<test name="SLA Braech Twitter Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSLABreachTwitterFunctionality" />
+		</classes>
+</test> 
+<test name="SLA Braech Facebook Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSLABreachFacebookFunctionality" />
+		</classes>
+</test> 
+<test name="SLA Braech Instagram Workflow(Brandwise Scenariao)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSLABreachInstagramFunctionality" />
+		</classes>
+</test>   
+<test name="SLA Braech LinkedIN Workflow(HandleWise Scenario and Notification off Scenario)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSLABreachLinkedINFunctionality" />
+		</classes>
+</test>  
+<test name="SLA Braech Email Workflow(HandleWise Scenario and Countdown off Scenario)">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoSLABreachEmailFunctionality" />
+		</classes>
+</test>  
+<test name="Holiday Calendar Account Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoHolidayCalenderAccountFunctionality" />
+		</classes>
+</test> 
+<test name="Influenser Configuration UI Verification Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoInflunserConfigUIVeriFunctionality" />
+		</classes>
+</test> 
+<test name="Influenser Configuration Account Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoInfluencerConfigAccountFunctionality" />
+		</classes>
+</test>     
+<test name="Influenser Rules Account Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoInfluencerRulesAccountFunctionality" />
+		</classes>
+</test> 
+<test name="Influenser Configuration Ticket Section Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoInfluencerConfigTicketSectionFunctionality" />
+		</classes>
+</test> 
+
+ <test name="Locobuzz Help Raise Issue  UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzHelpRaiseIssueUIComponentsFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Help Raise Issue  Workflow Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzHelpRaiseIssueWorkflowFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name="Excel Report Mention TAT Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionTATReportWorkflowFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Mention Campaign Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionCampaignReportWorkflowFunctionality" />
+		</classes>
+  </test>    
+  
+  <test name="Excel Report Mention Ticket Workflow Report V3 Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionTicketWorkflowReportV3WorkflowFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Excel Report Agent Achievement Detail Report Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportAgentAchievementDetailReportWorkflowFunctionality" />
+		</classes>
+  </test> 
+  
+  <test name="Ticket Section Details Workflow Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterTicketSectionDetailsWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Ticket Profile and Timeline UI Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterTicketProfileTimeLineUIFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Ticket SendDm and tag users Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterTicketSendDMWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Ticket SendDm Link and Group Functionality Twitter">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.TwitterTicketSendDMLinkAndGroupWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz Left Hand Side UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LeftHandSideUIComponentsFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz CSD Account Section Profile Components">
+		<parameter name="user" value="Customer" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzCSDAccountSectionProfileFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz Agent Account Section Profile Components">
+		<parameter name="user" value="Agent" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAgentAccountSectionProfileFunctionality" />
+		</classes>
+	</test>
+	
+	 <test name="Locobuzz Queue Configuration Agent Settings UI Components">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzQueueConfigAgentSettingsUIComponentsFunctionality" />
+		</classes>
+	</test>  
+	
+	 <test name="Locobuzz Queue Configuration Agent Settings Unassignned Ticket Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzQueueConfigAgentSettingUnassignTicketWorkflowFunctionality" />
+		</classes>
+	</test>  
+	
+	 <test name="Locobuzz Queue Configuration Agent Settings Ticket Reassignment Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzQueueConfigAgentSettingsTicketReassignmentWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+   	 <test name="Ad accounts UI Verification Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAdAccountsUIaccountfunctionality" />
+		</classes>
+</test>  
+<test name="Ad accounts Account Section Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoAdAccountstabaccountsfunctionality" />
+		</classes>
+</test> 
+<test name="Expedia Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigExpediaFunctionality" />
+		</classes>
+</test> 
+<test name="Bookings Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocochannelconfigBookingsfunctionality" />
+		</classes>
+</test> 
+<test name="Holiday IQ Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigHolidayIQFunctionality" />
+		</classes>
+</test> 
+<test name="Voice Channel Configuration Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocoChannelConfigVoiceConfigFunctionality" />
+		</classes>
+</test> 
+
+ <test name="Locobuzz Queue Configuration Agent Settings Advance Ticket Viewing Workflow">
+		<parameter name="user" value="Supervisor" />
+		<parameter name="channel" value="twitter" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzQueueConfigAgentSettingsAdvanceTicketViewWorkflowFunctionality" />
+		</classes>
+	</test>  
+	
+	 <test name="Locobuzz AWA Creation of Dashboard Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWACreationOfDashboardFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz AWA Creation Of Dashboard Select From Awa  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWACreationOfDashboardSelectFromAwaFunctionality" />
+		</classes>
+	</test>  
+	
+	 <test name="Locobuzz AWA Widget Selection of Dashboard  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAWidgetSelectionOfDashboardWorkflowFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz AWA Filters for User Location  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAFiltersUserLocationFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz AWA Filters for Marked Influencer  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAFiltersMarkedInfluencerFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz AWA Filters for Author City Type  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAFiltersAuthorCityTypeFunctionality" />
+		</classes>
+	</test>  
+	
+	 <test name="Locobuzz AWA  Section Creation  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWASectionCreationFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz AWA  Editing Of Dashboard  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAEditingOfDashboardFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz AWA  Public Link Sharing to Anyone  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAPublicLinkSharingFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz AWA  Public Link Sharing With Password  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAPublicSharingWithPasswordFunctionality" />
+		</classes>
+	</test> 
+	
+	 <test name="Locobuzz AWA  Sharing With Team Members  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAShareWithTeamMembersFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz AWA  Download PPT For Native  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAPPTDownloadForNativeFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name="Locobuzz AWA  Download PPT For Images  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAPPTDownloadImagesFunctionality" />
+		</classes>
+	</test>  
+	
+	 <test name="Locobuzz AWA  Download PPT For Overview  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAOverviewPPTDownloadFunctionality" />
+		</classes>
+	</test>   
+	
+	<test name="Locobuzz AWA  Download PPT For Influencer  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAInfluencerPPTDownloadFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz AWA  Download PPT For campaign analytics  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWACampaignAnalyticsPPTDownloadFunctionality" />
+		</classes>
+	</test>   
+	
+	<test name="Locobuzz AWA  Download PPT For PR Dashboard  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAPRDashboardPPTDownloadFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name="Locobuzz AWA  Download PPT For Competition Benchmarking  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWACompetitionBenchmarkingPPTDownloadFunctionality" />
+		</classes>
+	</test>   
+	
+	<test name="Locobuzz AWA  Download PPT For PR Benchmarking  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAPRBenchmarkingPPTDownloadFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz AWA  Download PPT For Content Benchmarking  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAContentBenchmarkingPPTDownloadFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name="Locobuzz AWA  Download PPT For Facebook  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAFacebookPPTDownloadFunctionality" />
+		</classes>
+	</test>
+	
+	<test name="Locobuzz AWA  Download PPT For Twitter  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWATwitterPPTDownloadFunctionality" />
+		</classes>
+	</test>   
+	
+	<test name="Locobuzz AWA  Download PPT For Instagram  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAInstagramPPTDownloadFunctionality" />
+		</classes>
+	</test>  
+	
+	<test name="Locobuzz AWA  Download PPT For Linkedin  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWALinkedinPPTDownloadFunctionality" />
+		</classes>
+	</test>   
+	
+	 <test name="Locobuzz AWA  Download PPT For Youtube  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAYoutubePPTDownloadFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz AWA  Download PPT For Google Play Store  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAGooglePlayStorePPTDownlaodFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz AWA  Download PPT For GMB  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAGMBPPTDownloadFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz AWA  Download PPT For Brand Activity  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWABrandActivityPPTDownloadFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz AWA  Download PPT For Content Performance  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAContentPerformancePPTDownloadFunctionality" />
+		</classes>
+	</test> 
+	
+	<test name="Locobuzz AWA  Download PPT For Charts With KPI  Workflow">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.LocobuzzAWAChartsWithKPIPPTDownloadFunctionality" />
+		</classes>
+	</test>
+	        	 		
+</suite> <!-- Suite -->
+
