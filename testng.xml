@@ -1176,13 +1176,13 @@
 		</classes>
 	</test>
 
-    <test name="Agent Signature CSD workflow">
+   <!-- <test name="Agent Signature CSD workflow">
 		<parameter name="user" value="Supervisor" />
 		
 		<classes>
 			<class name="com.test.java.classes.LocobuzzPublishApproverUIComponentsFunctionality" />
 		</classes>
-	</test> 
+	</test> -->
 	
 	  <test name="Agent Signature CSD workflow">
 		<parameter name="user" value="Supervisor" />
